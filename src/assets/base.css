@@ -19,6 +19,17 @@
   --vt-c-text-light-2: rgba(60, 60, 60, 0.66);
   --vt-c-text-dark-1: var(--vt-c-white);
   --vt-c-text-dark-2: rgba(235, 235, 235, 0.64);
+
+  --dracula-purple-color: #bd93f9;
+  --dracula-pink-color: #ff79c6;
+  --dracula-green-color: #50fa7b;
+  --dracula-cyan-color: #8be9fd;
+  --dracula-orange-color: #ffb86c;
+  --dracula-red-color: #ff5555;
+  --dracula-yellow-color: #f1fa8c;
+
+  --dracula-background-color: #282A36;
+
 }
 
 /* semantic color variables for this project */
@@ -38,7 +49,7 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --color-background: var(--vt-c-black);
+    --color-background: var(--dracula-background-color);
     --color-background-soft: var(--vt-c-black-soft);
     --color-background-mute: var(--vt-c-black-mute);
 
