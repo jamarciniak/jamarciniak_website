@@ -20,16 +20,6 @@
   --vt-c-text-dark-1: var(--vt-c-white);
   --vt-c-text-dark-2: rgba(235, 235, 235, 0.64);
 
-  --dracula-purple-color: #bd93f9;
-  --dracula-pink-color: #ff79c6;
-  --dracula-green-color: #50fa7b;
-  --dracula-cyan-color: #8be9fd;
-  --dracula-orange-color: #ffb86c;
-  --dracula-red-color: #ff5555;
-  --dracula-yellow-color: #f1fa8c;
-
-  --dracula-background-color: #282A36;
-
 }
 
 /* semantic color variables for this project */
@@ -49,7 +39,7 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --color-background: var(--dracula-background-color);
+    --color-background: var(--color-lonely-bg);
     --color-background-soft: var(--vt-c-black-soft);
     --color-background-mute: var(--vt-c-black-mute);
 
@@ -94,4 +84,132 @@ body {
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+
+/* Light (300) */
+@font-face {
+  font-family: 'SF Mono Powerline';
+  src: url('/fonts/SF-Mono-Powerline-Light.otf') format('opentype');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'SF Mono Powerline';
+  src: url('/fonts/SF-Mono-Powerline-Light-Italic.otf') format('opentype');
+  font-weight: 300;
+  font-style: italic;
+  font-display: swap;
+}
+
+/* Regular (400) */
+@font-face {
+  font-family: 'SF Mono Powerline';
+  src: url('/fonts/SF-Mono-Powerline-Regular.otf') format('opentype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'SF Mono Powerline';
+  src: url('/fonts/SF-Mono-Powerline-Regular-Italic.otf') format('opentype');
+  font-weight: 400;
+  font-style: italic;
+  font-display: swap;
+}
+
+/* Medium (500) */
+@font-face {
+  font-family: 'SF Mono Powerline';
+  src: url('/fonts/SF-Mono-Powerline-Medium.otf') format('opentype');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'SF Mono Powerline';
+  src: url('/fonts/SF-Mono-Powerline-Medium-Italic.otf') format('opentype');
+  font-weight: 500;
+  font-style: italic;
+  font-display: swap;
+}
+
+/* Semibold (600) */
+@font-face {
+  font-family: 'SF Mono Powerline';
+  src: url('/fonts/SF-Mono-Powerline-Semibold.otf') format('opentype');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'SF Mono Powerline';
+  src: url('/fonts/SF-Mono-Powerline-Semibold-Italic.otf') format('opentype');
+  font-weight: 600;
+  font-style: italic;
+  font-display: swap;
+}
+
+/* Bold (700) */
+@font-face {
+  font-family: 'SF Mono Powerline';
+  src: url('/fonts/SF-Mono-Powerline-Bold.otf') format('opentype');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'SF Mono Powerline';
+  src: url('/fonts/SF-Mono-Powerline-Bold-Italic.otf') format('opentype');
+  font-weight: 700;
+  font-style: italic;
+  font-display: swap;
+}
+
+/* Heavy (800) */
+@font-face {
+  font-family: 'SF Mono Powerline';
+  src: url('/fonts/SF-Mono-Powerline-Heavy.otf') format('opentype');
+  font-weight: 800;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'SF Mono Powerline';
+  src: url('/fonts/SF-Mono-Powerline-Heavy-Italic.otf') format('opentype');
+  font-weight: 800;
+  font-style: italic;
+  font-display: swap;
+}
+
+@theme {
+  --font-sf-mono: 'SF Mono Powerline', ui-monospace, monospace;
+
+
+  --color-dracula-purple: #bd93f9;
+  --color-dracula-pink: #ff79c6;
+  --color-dracula-green: #50fa7b;
+  --color-dracula-cyan: #8be9fd;
+  --color-dracula-orange: #ffb86c;
+  --color-dracula-red: #ff5555;
+  --color-dracula-yellow: #f1fa8c;
+
+  --color-dracula-bg: #282A36;
+
+  --color-lonely-key: #e06c75;
+  --color-lonely-string: #98c379;
+  --color-lonely-number: #d19a66;
+  --color-lonely-boolean: #56b6c2;
+  --color-lonely-null: #56b6c2;
+  --color-lonely-punctuation: #abb2bf;
+  --color-lonely-comment: #7f848e;
+  --color-lonely-bg: #141821;
+  --color-lonely-fg: #a2aabc;
+
 }

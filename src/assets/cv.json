@@ -1,0 +1,83 @@
+{
+    "name": "Jakub Marciniak",
+    "title": "Frontend Developer",
+    "location": "Koło, Poland",
+    "contact": {
+        "email": "jakub.marciniak2000@gmail.com",
+        "phone": "+48 697-022-527",
+        "github": "github.com/jamarciniak"
+    },
+    "profile": "Frontend Developer working on an advanced MES system in a small agile team. Combining technical education with a passion for frontend development and robotics.",
+    "skills": {
+        "main": [
+            "Vue",
+            "JavaScript",
+            "TypeScript",
+            "HTML/CSS",
+            "Jest"
+        ],
+        "other": [
+            "Python",
+            "Git",
+            "SASS",
+            "Docker",
+            "Linux",
+            "Scrum",
+            "ROS/ROS2",
+            "C++"
+        ]
+    },
+    "experience": [
+        {
+            "company": "Neoncube",
+            "role": "Frontend Developer",
+            "period": "May 2026 - Present",
+            "stack": [
+                "JS",
+                "TS",
+                "Vue",
+                "Pinia",
+                "AWS"
+            ]
+        },
+        {
+            "company": "RAION Software",
+            "role": "Frontend Developer",
+            "period": "Jul 2022 - Apr 2026",
+            "stack": [
+                "JS",
+                "TS",
+                "Vue",
+                "Vuex",
+                "Pinia",
+                "Jest",
+                "Web Components"
+            ]
+        }
+    ],
+    "education": [
+        {
+            "degree": "Robots and Autonomous Systems",
+            "school": "Poznan University of Technology",
+            "period": "2023 - 2024",
+            "grade": 4.5
+        },
+        {
+            "degree": "Automatic and Robotics",
+            "school": "Poznan University of Technology",
+            "period": "2019 - 2023",
+            "grade": 4.5,
+            "note": "Final project published by IEEE at MMAR 2023"
+        }
+    ],
+    "languages": [
+        {
+            "language": "Polish",
+            "level": "Native"
+        },
+        {
+            "language": "English",
+            "level": "B2"
+        }
+    ]
+}
