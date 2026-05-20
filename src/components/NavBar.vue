@@ -78,10 +78,10 @@
         class="w-0 h-0 border-t-[18.5px] border-t-transparent border-b-transparent border-b-[18.5px] border-l-[18.5px] border-l-dracula-purple"
       />
     </div> -->
-    <div class="flex gap-15">
+    <!-- <div class="flex gap-15">
       <div>contact</div>
       <div>about me</div>
       <div>projects</div>
-    </div>
+    </div> -->
   </nav>
 </template>
