@@ -5,12 +5,8 @@ import HomeView from './views/HomeView.vue'
 </script>
 
 <template>
-  <header>
-    <NavBar />
+  <div class="h-dvh overflow-hidden flex flex-col">
+    <NavBar class="shrink-0" />
     <HomeView />
-    <!-- <nav>
-      <RouterLink to="/">Home</RouterLink>
-      <RouterLink to="/about">About</RouterLink>
-    </nav> -->
-  </header>
+  </div>
 </template>

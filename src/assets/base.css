@@ -213,3 +213,9 @@ body {
   --color-lonely-fg: #a2aabc;
 
 }
+
+* {
+  scrollbar-width: thin;
+  scrollbar-color: #bd93f9 transparent;
+  /* thumb track */
+}
